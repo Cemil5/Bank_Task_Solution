@@ -1,6 +1,6 @@
 package banking;
 
-public abstract class AccountHolder {
+public class AccountHolder {
 	private int idNumber;
 
 	/**
@@ -8,6 +8,8 @@ public abstract class AccountHolder {
 	 */
 	public AccountHolder(int idNumber){
 		// complete the function
+		// AccountHolder accountHolder, Long accountNumber, int pin, double startingDeposit
+		this.idNumber = idNumber;
 	}
 
 	/**
@@ -15,6 +17,6 @@ public abstract class AccountHolder {
 	 */
 	public int getIdNumber() {
 		// complete the function
-        return -1;
+        return idNumber;
 	}
 }

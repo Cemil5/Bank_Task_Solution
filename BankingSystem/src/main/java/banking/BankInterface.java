@@ -30,7 +30,7 @@ public interface BankInterface {
 	 * @param pin
 	 * @return true if authentication was successful.
 	 */
-	public boolean authenticateUser(Long accountNumber, int pin);
+	public boolean authenticateUser(Long accountNumber, int pin) throws Exception;
 
 	/**
 	 * @param accountNumber The account number for the transaction.

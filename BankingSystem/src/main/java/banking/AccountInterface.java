@@ -14,7 +14,7 @@ public interface AccountInterface {
 	 * @param attemptedPin The attempted PIN.
 	 * @return true if attemptedPin matches the account; otherwise, return false.
 	 */
-	public boolean validatePin(int attemptedPin);
+	public boolean validatePin(int attemptedPin) throws Exception;
 
 	/**
 	 * @return {@link Account#accountBalance}.
